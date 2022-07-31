@@ -1,4 +1,4 @@
-all: sedit
+all: sedit install
 
 sedit: sedit.c
 	$(CC) -o sedit sedit.c -Wall -W -pedantic -std=c99
