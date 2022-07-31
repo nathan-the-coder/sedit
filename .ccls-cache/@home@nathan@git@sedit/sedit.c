@@ -129,7 +129,7 @@ void editorSetStatusMessage(const char *fmt, ...);
 char *MC_HL_extensions[] = {".mc",NULL};
 char *MC_HL_keywords[] = {
 	/* C Keywords */
-	"define","break","read", "write", "system", "print!","println!","else",
+	"define","break","goto","print!","println!","else",
     "goto","if","return","while","NULL",
 
 };
